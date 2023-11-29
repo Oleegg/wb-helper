@@ -1,0 +1,42 @@
+.priority {
+  background: #fff;
+  padding: 20px;
+  margin-top: 8px;
+  min-width: 508px;
+}
+
+.priority h3 {
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.priority__list {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.priority__item {
+  list-style: none;
+  height: 80px;
+  max-width: 468px;
+  display: flex;
+  align-items: center;
+}
+
+.item-number {
+  min-width: 50px;
+}
+
+.priority__item span {
+  margin-left: 18px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item-border {
+  border: 1px solid #f3f4f5;
+  border-radius: 10px;
+}

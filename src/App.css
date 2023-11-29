@@ -1,0 +1,19 @@
+.app {
+  width: 100vw;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: #f6f7f8;
+}
+
+.content {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.app-content {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}

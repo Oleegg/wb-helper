@@ -1,0 +1,99 @@
+.bid {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 28px;
+}
+
+.bid h2 {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ecf1f7;
+  padding: 10px 10px;
+  min-width: 224px;
+  width: 25%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.select::after {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  content: "";
+  background-image: url("../../../public/images/Vector.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 100%;
+}
+
+.select__input {
+  background: #ecf1f7;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.4px;
+  padding-top: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 55px;
+  margin: 0 30px;
+  border-bottom: 1px solid #dddfe0;
+}
+
+.search__input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.search__input::placeholder {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+}
+
+.search__svg {
+  background-image: url("../../../public/images/search.svg");
+  width: 24px;
+  height: 24px;
+}
+
+.search-form__btn {
+  color: #000;
+  padding: 18px 88px;
+  background: #ffde31;
+  width: 25%;
+  max-width: 224px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+}

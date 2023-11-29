@@ -1,0 +1,51 @@
+.card {
+  display: grid;
+  grid-template-columns: 70px 70px 130px 60px 1fr 80px 70px;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+  padding: 7px 10px;
+  gap: 20px;
+}
+
+.card__number {
+  width: 50px;
+  margin: 10px;
+}
+
+.white {
+  background: white;
+}
+
+.card__img {
+  border-radius: 2px;
+}
+
+.card__article {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card__article-link {
+  background-image: url(../../../public/images/link.svg);
+}
+.card__article-copy {
+  background-image: url(../../../public/images/copy.svg);
+}
+
+.card__article-link,
+.card__article-copy {
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.card__price {
+  background: #ffde31;
+  width: 190px;
+  border-radius: 10px;
+  padding: 10px;
+}

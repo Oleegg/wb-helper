@@ -1,0 +1,90 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid #f3f4f5;
+  margin-bottom: 40px;
+}
+
+.header .content {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-image: url("../../../public/images/WBHelper-Logo.svg");
+  width: 244px;
+  height: 28px;
+  background-repeat: no-repeat;
+}
+
+.menu__list {
+  display: flex;
+  gap: 30px;
+  padding: 0 0 0 30px;
+}
+
+.menu__list li {
+  list-style: none;
+}
+
+.menu__item {
+  color: #777777;
+  text-decoration: none;
+}
+
+.chevron {
+  position: relative;
+  padding-right: 25px;
+}
+
+.chevron::after {
+  position: absolute;
+  content: "";
+  background-image: url("../../../public/images/Vector.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 100%;
+}
+
+.active {
+  padding-bottom: 4px;
+  color: #121212;
+  border-bottom: 2px solid #ffde31;
+}
+
+.header__login {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__login li {
+  list-style: none;
+}
+
+.bell {
+  background-image: url("../../../public/images/bell.svg");
+  width: 24px;
+  height: 24px;
+}
+
+.log-in {
+  background-image: url("../../../public/images/user.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
+
+.log-in.chevron::after {
+  margin-left: 38px;
+}
